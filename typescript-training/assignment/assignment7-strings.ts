@@ -23,5 +23,6 @@ let splitString: string[] = originalString.split(" ");
  {
 finalString = finalString + " "+ splitString[i].charAt(0).toUpperCase() + splitString[i].slice(1);
  }
- console.log(finalString);
+ console.log(finalString)
 
+ 
